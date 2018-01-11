@@ -1,12 +1,17 @@
 # -*- coding: utf-8 -*-
 from . import helpers
 
-def get_hmm():
-    """Get a thought."""
-    return 'hmmm...'
+
+def divide(a, b):
+    if helpers.can_divide(a, b):
+        return a / b
+
+    return None
 
 
-def hmm():
-    """Contemplation..."""
-    if helpers.get_answer():
-        print(get_hmm())
+def modulo(a, b):
+    quotient = divide(a, b)
+    if quotient:
+        return a - (quotient * b)
+
+    return None
