@@ -3,7 +3,6 @@
 # 	pip install -r requirements.txt
 
 test:
-	# Run a full test suite
 	python -m unittest -v tests.unit_tests
 
 # Run a precise test
