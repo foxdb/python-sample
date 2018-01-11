@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 
+# TODO: Do I really have to do that to have relative imports working with .. ?
 
 import sys
 import os
