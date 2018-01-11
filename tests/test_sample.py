@@ -5,8 +5,8 @@ import unittest
 from .context import sample
 
 
-class BasicTestSuite(unittest.TestCase):
-    """Unit tests"""
+class TestSuite(unittest.TestCase):
+    """Tests of the Sample Module"""
 
     def test_true_is_true(self):
         assert True

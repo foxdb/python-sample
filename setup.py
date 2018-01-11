@@ -13,7 +13,7 @@ setup(
     description='Sample Python Project',
     long_description=readme,
     author='Ben Schmitt',
-    author_email='me@kennethreitz.com',
+    author_email='bens.schmitt@gmail.com',
     url='https://gitlab.com/foxdb/python-sample',
     license=license,
     packages=find_packages(exclude=('tests', 'docs'))
