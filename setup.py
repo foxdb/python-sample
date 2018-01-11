@@ -8,7 +8,7 @@ with open('LICENSE') as f:
     license = f.read()
 
 setup(
-    name='sample',
+    name='python-sample',
     version='0.1.0',
     description='Sample Python Project',
     long_description=readme,
