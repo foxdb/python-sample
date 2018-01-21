@@ -5,8 +5,8 @@ Modules
 -------
 
 - Imports with ``requirements.txt``
-- Installed with ``make init``
-- pylint: ``pylintrc`` with custom rules disabled
+- TODO: Installed with ``make init`` - ``setup.py``
+- pylint: ``pylintrc`` with some rules disabled
 - Example of a ``sample`` module with proper structure and usage
 
 Test
