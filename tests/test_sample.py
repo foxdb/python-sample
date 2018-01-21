@@ -15,7 +15,7 @@ class TestSuite(unittest.TestCase):
         self.assertIsNone(sample.core.divide(1, 0))
 
     def test_divide_result(self):
-        self.assertEqual(sample.core.divide(10, 5), 3)
+        self.assertEqual(sample.core.divide(10, 5), 2)
 
     def test_modulo_none_when_0(self):
         self.assertIsNone(sample.core.modulo(1, 0))
