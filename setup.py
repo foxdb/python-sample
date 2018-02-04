@@ -2,19 +2,19 @@
 from setuptools import setup, find_packages
 
 with open('README.rst') as f:
-    readme = f.read()
+    README = f.read()
 
 with open('LICENSE') as f:
-    license = f.read()
+    LICENSE = f.read()
 
 setup(
     name='python-sample',
     version='0.1.0',
     description='Sample Python Project',
-    long_description=readme,
+    long_description=README,
     author='Ben Schmitt',
     author_email='bens.schmitt@gmail.com',
     url='https://gitlab.com/foxdb/python-sample',
-    license=license,
+    license=LICENSE,
     packages=find_packages(exclude=('tests', 'docs'))
 )
