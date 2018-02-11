@@ -1,5 +1,8 @@
-Sample Python Project
-=====================
+python-sample
+=============
+
+Python boilerplate with tests, modules and imports
+
 
 Modules
 -------
